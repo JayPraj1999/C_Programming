@@ -10,11 +10,11 @@ int main()
 	printf("Enter any Character : ");
 	scanf("%c",&ch);
 	
-	if(ch>='a' && ch<='z')
+	if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
 	{
 		printf("Character...!");
 	}
-	else
+	else 
 	{
 		printf("Not a Character...!");
 	}
