@@ -1,4 +1,5 @@
-//Find vowel or not 
+//Find vowel or not else if(ch=='b' || ch=='B')
+
 
 #include<stdio.h>
 
