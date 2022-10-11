@@ -1,4 +1,4 @@
-//Check number is pelindrome or not.
+//Check number is palindrome or not.
 
 #include<stdio.h>
 

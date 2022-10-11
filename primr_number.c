@@ -5,19 +5,24 @@
 int main()
 {
 	
-	int a;
-	
-	printf("Enter any ineger value : \n");
+	int a,b;
+	printf("Enter Number To check : ");
 	scanf("%i",&a);
+	for(b=2;b<=a;b++)
+	{
+		if(a%b==0)
+		{
+			printf("Not Prine number");
+			break;
+		}
+		else
+		{
+			printf("primr number");
+			break;
+		}
+	}
 	
-	if(a%1==0 || a%a!=1)
-	{
-		printf("prime number...!");
-	}
-	else
-	{
-		printf("not prime number...!");
-	}
+	
 	
 	return 0;
 }
