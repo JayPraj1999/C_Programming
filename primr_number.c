@@ -8,9 +8,9 @@ int main()
 	int a,b;
 	printf("Enter Number To check : ");
 	scanf("%i",&a);
-	if(a==1)
+	if(a==1 || a==2)
 	{
-		printf("\n1 is a prime number.");
+		printf("\n prime number.");
 	}
 	else
 	{
@@ -18,12 +18,12 @@ int main()
 		{
 			if(a%b==0)
 			{
-				printf("Not Prine number");
+				printf("Not Prime number");
 				break;
 			}
 			else
 			{
-				printf("primr number");
+				printf("prime number");
 				break;
 			}
 		}	
