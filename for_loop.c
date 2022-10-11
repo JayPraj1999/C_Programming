@@ -5,7 +5,7 @@
 int main()
 {
 	int a;
-	for(a=1;a<=7;a++)
+	for(a=1;a<=57;a++)
 	{
 		printf("%i \n",a);
 	}
