@@ -5,8 +5,10 @@
 int main()
 {
 	int a;
-	for(a=1;a<=57;a++)
+	for(a=972;a>=897;a--)
 	{
 		printf("%i \n",a);
 	}
+	
+	return 0;
 }
